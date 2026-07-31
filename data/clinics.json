@@ -1,0 +1,1282 @@
+{
+  "dataset": "Turkish hair transplant clinics, verified against primary sources",
+  "description": "Every clinic we list, with the two facts the industry does not publish: whether the clinic names the surgeon who operates, and whether it puts a price in writing.",
+  "source": "https://comparehairtransplant.com/data",
+  "method": "https://comparehairtransplant.com/how-we-rank",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "Compare Hair Transplant — https://comparehairtransplant.com",
+  "how_to_read": [
+    "surgeon.state is one of four values and they are NOT interchangeable. `named` = the clinic names a physician on its own website. `checked_names_nobody` = we read the clinic's own website on the date in checked_on and it named no physician. `not_checked` = we have not looked, or the site refused automated access, and we make NO claim either way. `agency_does_not_operate` = this entry is a booking agency, which by its own description does not perform surgery.",
+    "`not_checked` must never be read, republished or aggregated as though it meant the clinic hides anything. It means we do not know.",
+    "price.state `our_estimate` means the clinic does not publish rates and the figures are our approximation from comparable clinics — not a quote, and not the clinic's price.",
+    "Ratings and review counts are deliberately absent. We hold no review volume we can source, and publishing an unsourced rating in a dataset about provenance would be self-defeating.",
+    "Every claim here is an observation of a public page on a stated date. It is not an assessment of clinical quality, and nothing here is medical advice."
+  ],
+  "counts": {
+    "entries": 38,
+    "clinics": 36,
+    "agencies": 2,
+    "surgeon_named": 32,
+    "surgeon_checked_names_nobody": 4,
+    "surgeon_not_checked": 0,
+    "publishes_prices": 7,
+    "price_is_our_estimate": 31
+  },
+  "corrections": "Facts changed, or we got something wrong? Tell us at https://comparehairtransplant.com/contact and we will re-check and re-publish. Named a surgeon since we looked? That is exactly the case we want to hear about.",
+  "clinics": [
+    {
+      "name": "AHD Clinic",
+      "slug": "ahd-clinic",
+      "profile_url": "https://comparehairtransplant.com/clinics/ahd-clinic",
+      "website": "https://www.ahdclinic.com",
+      "city": "Antalya",
+      "country": "Turkey",
+      "founded_year": 2003,
+      "entry_type": "clinic",
+      "accreditations": [
+        "IAHRS"
+      ],
+      "techniques": [
+        "DHI",
+        "FUE"
+      ],
+      "surgeon": {
+        "state": "named",
+        "name": "Dr. Hakan Doğanay",
+        "checked_on": "2026-07-14",
+        "note": "This clinic names the physician on its own website."
+      },
+      "price": {
+        "state": "published",
+        "per_graft_usd": 1.3,
+        "min_usd": 3600,
+        "max_usd": 5700,
+        "note": "The clinic publishes these rates on its own website."
+      },
+      "verified": true,
+      "verified_on": "2026-07-04",
+      "summary": "All-inclusive budget clinic for international patients."
+    },
+    {
+      "name": "Asmed Surgical Medical Center",
+      "slug": "asmed",
+      "profile_url": "https://comparehairtransplant.com/clinics/asmed",
+      "website": "https://www.hairtransplantfue.org",
+      "city": "Istanbul",
+      "country": "Turkey",
+      "founded_year": 2001,
+      "entry_type": "clinic",
+      "accreditations": [
+        "ISHRS"
+      ],
+      "techniques": [
+        "FUE"
+      ],
+      "surgeon": {
+        "state": "named",
+        "name": "Dr. Koray Erdoğan",
+        "checked_on": "2026-07-14",
+        "note": "This clinic names the physician on its own website."
+      },
+      "price": {
+        "state": "published",
+        "per_graft_usd": 2.7,
+        "min_usd": 4400,
+        "max_usd": 14700,
+        "note": "The clinic publishes these rates on its own website."
+      },
+      "verified": true,
+      "verified_on": "2026-07-13",
+      "summary": "Founded in 2001 by Dr. Koray Erdogan, Asmed is a manual-FUE-only surgical center known for high graft counts, KE-BOT computerized planning and openly published tiered pricing: €2/graft with the medical team, €3/graft with Dr. Erdogan."
+    },
+    {
+      "name": "Dr. Atalay Kabakçıoğlu Hair Transplant",
+      "slug": "atalay-kabakcioglu",
+      "profile_url": "https://comparehairtransplant.com/clinics/atalay-kabakcioglu",
+      "website": "https://dratalaykabakcioglu.com/en/",
+      "city": "Izmir",
+      "country": "Turkey",
+      "founded_year": 2010,
+      "entry_type": "clinic",
+      "accreditations": [],
+      "techniques": [
+        "DHI",
+        "FUE"
+      ],
+      "surgeon": {
+        "state": "named",
+        "name": "Dr. Atalay Kabakçıoğlu",
+        "checked_on": "2026-07-14",
+        "note": "This clinic names the physician on its own website."
+      },
+      "price": {
+        "state": "our_estimate",
+        "per_graft_usd": null,
+        "min_usd": null,
+        "max_usd": null,
+        "note": "The clinic does not publish rates. These figures are our approximation and are not a quote from the clinic."
+      },
+      "verified": true,
+      "verified_on": "2026-07-13",
+      "summary": "Izmir hair transplant centre led by Dr. Atalay Kabakçıoğlu, performing transplants since 2010. DHI and FUE, plus beard, eyebrow and moustache work. The clinic is explicit that transplants belong in a sterile surgical setting under a physician legally authorised to perform them. Prices quoted per case and not published."
+    },
+    {
+      "name": "Capilclinic",
+      "slug": "capilclinic",
+      "profile_url": "https://comparehairtransplant.com/clinics/capilclinic",
+      "website": "https://www.capilclinic.com",
+      "city": "Istanbul",
+      "country": "Turkey",
+      "founded_year": 2014,
+      "entry_type": "clinic",
+      "accreditations": [],
+      "techniques": [
+        "DHI",
+        "FUE",
+        "Sapphire FUE"
+      ],
+      "surgeon": {
+        "state": "named",
+        "name": "Prof. Dr. Oğuz Kayıran",
+        "checked_on": "2026-07-14",
+        "note": "This clinic names the physician on its own website."
+      },
+      "price": {
+        "state": "our_estimate",
+        "per_graft_usd": 0.8,
+        "min_usd": 2400,
+        "max_usd": 3050,
+        "note": "The clinic does not publish rates. These figures are our approximation and are not a quote from the clinic."
+      },
+      "verified": true,
+      "verified_on": "2026-07-04",
+      "summary": "Spanish-Turkish clinic serving a large Spanish-speaking patient base."
+    },
+    {
+      "name": "Civas \u0026 Akpınar Hair Transplant",
+      "slug": "civas-akpinar",
+      "profile_url": "https://comparehairtransplant.com/clinics/civas-akpinar",
+      "website": "https://civashairtransplant.com",
+      "city": "Ankara",
+      "country": "Turkey",
+      "founded_year": 1999,
+      "entry_type": "clinic",
+      "accreditations": [
+        "ISHRS",
+        "ABHRS",
+        "IAHRS",
+        "FUE Europe"
+      ],
+      "techniques": [
+        "DHI",
+        "FUE",
+        "FUT",
+        "Sapphire FUE"
+      ],
+      "surgeon": {
+        "state": "named",
+        "name": "Dr. Ekrem Civas, Dr. Ümit Akpınar",
+        "checked_on": "2026-07-14",
+        "note": "This clinic names the physician on its own website."
+      },
+      "price": {
+        "state": "published",
+        "per_graft_usd": 1.9,
+        "min_usd": 4900,
+        "max_usd": 8600,
+        "note": "The clinic publishes these rates on its own website."
+      },
+      "verified": true,
+      "verified_on": "2026-07-13",
+      "summary": "Ankara dermatology and hair restoration clinic open since 1999, run by Dr. Ekrem Civas — the first surgeon in Turkey certified by the ABHRS (2011) and the first to become an ISHRS Fellow (2015) — with Dr. Ümit Akpınar. One procedure per day, and openly published pricing: from €1.75 per graft for men, €2.50 for women and unshaven FUE, against a €4,500 baseline. FUE, FUT, DHI and Sapphire, plus scarring-alopecia and repair work."
+    },
+    {
+      "name": "Clinicana",
+      "slug": "clinicana",
+      "profile_url": "https://comparehairtransplant.com/clinics/clinicana",
+      "website": "https://www.clinicana.com",
+      "city": "Istanbul",
+      "country": "Turkey",
+      "founded_year": 2011,
+      "entry_type": "clinic",
+      "accreditations": [],
+      "techniques": [
+        "DHI",
+        "FUE",
+        "Sapphire FUE"
+      ],
+      "surgeon": {
+        "state": "named",
+        "name": "Prof. Dr. Soner Tatlıdede",
+        "checked_on": "2026-07-14",
+        "note": "This clinic names the physician on its own website."
+      },
+      "price": {
+        "state": "our_estimate",
+        "per_graft_usd": 1,
+        "min_usd": 2000,
+        "max_usd": 5000,
+        "note": "The clinic does not publish rates. These figures are our approximation and are not a quote from the clinic."
+      },
+      "verified": true,
+      "verified_on": "2026-07-04",
+      "summary": "Multilingual international clinic serving patients from across Europe and the Gulf."
+    },
+    {
+      "name": "ClinicHair",
+      "slug": "clinichair",
+      "profile_url": "https://comparehairtransplant.com/clinics/clinichair",
+      "website": "https://clinichair.com",
+      "city": "Izmir",
+      "country": "Turkey",
+      "founded_year": 2001,
+      "entry_type": "clinic",
+      "accreditations": [
+        "Turkish Ministry of Health",
+        "TURSAB"
+      ],
+      "techniques": [
+        "DHI",
+        "FUE"
+      ],
+      "surgeon": {
+        "state": "named",
+        "name": "Dr. Nejdet Şişman, Dr. Sualp Özturk",
+        "checked_on": "2026-07-14",
+        "note": "This clinic names the physician on its own website."
+      },
+      "price": {
+        "state": "our_estimate",
+        "per_graft_usd": null,
+        "min_usd": null,
+        "max_usd": null,
+        "note": "The clinic does not publish rates. These figures are our approximation and are not a quote from the clinic."
+      },
+      "verified": true,
+      "verified_on": "2026-07-14",
+      "summary": "Izmir clinic in Bayraklı, founded in 2001, which names two plastic and reconstructive surgery specialists on its team page — Dr. Nejdet Şişman and Dr. Sualp Özturk. FUE and DHI, with a Ministry of Health health-tourism authorisation. Prices are quoted after a free hair analysis and are not published."
+    },
+    {
+      "name": "Cosmedica",
+      "slug": "cosmedica",
+      "profile_url": "https://comparehairtransplant.com/clinics/cosmedica",
+      "website": "https://cosmedica.com",
+      "city": "Istanbul",
+      "country": "Turkey",
+      "founded_year": 2007,
+      "entry_type": "clinic",
+      "accreditations": [
+        "ISO 9001",
+        "ISO 10002",
+        "ISO 27001",
+        "ISO 45001",
+        "ISO 22716"
+      ],
+      "techniques": [
+        "DHI",
+        "FUE",
+        "Sapphire FUE"
+      ],
+      "surgeon": {
+        "state": "named",
+        "name": "Dr. Levent Acar",
+        "checked_on": "2026-07-14",
+        "note": "This clinic names the physician on its own website."
+      },
+      "price": {
+        "state": "our_estimate",
+        "per_graft_usd": 0.9,
+        "min_usd": 2750,
+        "max_usd": 3450,
+        "note": "The clinic does not publish rates. These figures are our approximation and are not a quote from the clinic."
+      },
+      "verified": true,
+      "verified_on": "2026-07-04",
+      "summary": "Led by Dr. Levent Acar, known for very high graft counts in a single session."
+    },
+    {
+      "name": "DK Klinik",
+      "slug": "dk-klinik",
+      "profile_url": "https://comparehairtransplant.com/clinics/dk-klinik",
+      "website": "https://en.dk-klinik.com.tr/hair-transplant-antalya",
+      "city": "Antalya",
+      "country": "Turkey",
+      "founded_year": 2002,
+      "entry_type": "clinic",
+      "accreditations": [
+        "Turkish Ministry of Health",
+        "ISHRS"
+      ],
+      "techniques": [
+        "DHI",
+        "FUE"
+      ],
+      "surgeon": {
+        "state": "named",
+        "name": "Prof. Dr. Ümit Kemal Şentürk, Dr. Meltem Şentürk",
+        "checked_on": "2026-07-14",
+        "note": "This clinic names the physician on its own website."
+      },
+      "price": {
+        "state": "published",
+        "per_graft_usd": null,
+        "min_usd": 2800,
+        "max_usd": 2800,
+        "note": "The clinic publishes these rates on its own website."
+      },
+      "verified": true,
+      "verified_on": "2026-07-13",
+      "summary": "Antalya clinic operating on the Lara coast since 2002, led by Dr. Meltem Şentürk and Prof. Ümit Kemal Şentürk. States it was the first clinic in Antalya accredited by the Turkish Ministry of Health and is an ISHRS member. DHI and FUE, physician-led, capped at two patients per day. One of the few Turkish clinics to publish a flat package price: £2,200 all-in (~$2,800)."
+    },
+    {
+      "name": "Dr. Cinik Hair Transplant",
+      "slug": "dr-cinik",
+      "profile_url": "https://comparehairtransplant.com/clinics/dr-cinik",
+      "website": "https://emrahcinik.com",
+      "city": "Istanbul",
+      "country": "Turkey",
+      "founded_year": 2019,
+      "entry_type": "clinic",
+      "accreditations": [],
+      "techniques": [
+        "DHI",
+        "FUE",
+        "Sapphire FUE"
+      ],
+      "surgeon": {
+        "state": "named",
+        "name": "Dr. Emrah Cinik",
+        "checked_on": "2026-07-14",
+        "note": "This clinic names the physician on its own website."
+      },
+      "price": {
+        "state": "published",
+        "per_graft_usd": 0.88,
+        "min_usd": 2515,
+        "max_usd": 5885,
+        "note": "The clinic publishes these rates on its own website."
+      },
+      "verified": true,
+      "verified_on": "2026-07-14",
+      "summary": "Istanbul clinic opened in 2019 by Dr. Emrah Cinik, and one of the few in Turkey to publish a full price list rather than quoting per case: FUE €2,350, Sapphire FUE €2,890, DHI €3,590, and €5,500 for a procedure performed by Dr. Cinik personally. All-inclusive packages priced by technique rather than by graft count. The clinic states no medical accreditation on its own site — the badges it displays are patient-review platforms, not accrediting bodies."
+    },
+    {
+      "name": "Dr. Serkan Aygin Clinic",
+      "slug": "dr-serkan-aygin",
+      "profile_url": "https://comparehairtransplant.com/clinics/dr-serkan-aygin",
+      "website": "https://www.drserkanaygin.com",
+      "city": "Istanbul",
+      "country": "Turkey",
+      "founded_year": 1996,
+      "entry_type": "clinic",
+      "accreditations": [
+        "JCI",
+        "ISO 9001"
+      ],
+      "techniques": [
+        "DHI",
+        "FUE",
+        "Sapphire FUE"
+      ],
+      "surgeon": {
+        "state": "named",
+        "name": "Dr. Serkan Aygın",
+        "checked_on": "2026-07-14",
+        "note": "This clinic names the physician on its own website."
+      },
+      "price": {
+        "state": "our_estimate",
+        "per_graft_usd": 1.4,
+        "min_usd": 2000,
+        "max_usd": 4000,
+        "note": "The clinic does not publish rates. These figures are our approximation and are not a quote from the clinic."
+      },
+      "verified": true,
+      "verified_on": "2026-07-04",
+      "summary": "Veteran award-winning clinic, one of the longest-running names in Istanbul."
+    },
+    {
+      "name": "Dr. Terziler Exclusive Clinic",
+      "slug": "dr-terziler",
+      "profile_url": "https://comparehairtransplant.com/clinics/dr-terziler",
+      "website": "https://drterziler.com",
+      "city": "Istanbul",
+      "country": "Turkey",
+      "entry_type": "clinic",
+      "accreditations": [
+        "AACI",
+        "TİTCK",
+        "TÜSATDER"
+      ],
+      "techniques": [
+        "DHI",
+        "FUE"
+      ],
+      "surgeon": {
+        "state": "named",
+        "name": "Dr. Servet Terziler",
+        "checked_on": "2026-07-14",
+        "note": "This clinic names the physician on its own website."
+      },
+      "price": {
+        "state": "published",
+        "per_graft_usd": 1.19,
+        "min_usd": 1766,
+        "max_usd": 8560,
+        "note": "The clinic publishes these rates on its own website."
+      },
+      "verified": true,
+      "verified_on": "2026-07-14",
+      "summary": "Istanbul clinic in Beşiktaş founded by Dr. Servet Terziler, who the site credits with 35+ years of practice and shows outcomes from procedures performed in the late 1990s. FUE, DHI and a robotic DHI variant. Publishes all-inclusive pricing from €1,650 to €8,000 by technique and graft count. The clinic states that Dr. Kürşat Yalvaç may lead the medical plan on some cases, so confirm in writing who is assigned to yours."
+    },
+    {
+      "name": "DrT Hair Transplant",
+      "slug": "drt-hair-transplant",
+      "profile_url": "https://comparehairtransplant.com/clinics/drt-hair-transplant",
+      "website": "https://drthair.com",
+      "city": "Ankara",
+      "country": "Turkey",
+      "founded_year": 1998,
+      "entry_type": "clinic",
+      "accreditations": [
+        "TÜRSAB A-Group"
+      ],
+      "techniques": [
+        "DHI",
+        "FUE",
+        "Sapphire FUE"
+      ],
+      "surgeon": {
+        "state": "named",
+        "name": "Dr. Tayfun Oğuzoğlu",
+        "checked_on": "2026-07-14",
+        "note": "This clinic names the physician on its own website."
+      },
+      "price": {
+        "state": "our_estimate",
+        "per_graft_usd": null,
+        "min_usd": null,
+        "max_usd": null,
+        "note": "The clinic does not publish rates. These figures are our approximation and are not a quote from the clinic."
+      },
+      "verified": true,
+      "verified_on": "2026-07-13",
+      "summary": "Ankara clinic founded in 1998 by Dr. Tayfun Oğuzoğlu, one of the longest-running hair transplant practices in Turkey and an early adopter of long-hair FUE. Sapphire FUE, DHI, long-hair FUE and body hair transplantation, with satellite consultations in Cyprus, Germany and Austria. Prices quoted per case and not published."
+    },
+    {
+      "name": "Elithair",
+      "slug": "elithair",
+      "profile_url": "https://comparehairtransplant.com/clinics/elithair",
+      "website": "https://elithair.com",
+      "city": "Istanbul",
+      "country": "Turkey",
+      "founded_year": 2012,
+      "entry_type": "clinic",
+      "accreditations": [
+        "TÜV ISO 9001:2015",
+        "TR Ministry of Health"
+      ],
+      "techniques": [
+        "DHI",
+        "FUE",
+        "Sapphire FUE"
+      ],
+      "surgeon": {
+        "state": "named",
+        "name": "Dr. Abdulaziz Balwi",
+        "checked_on": "2026-07-14",
+        "note": "This clinic names the physician on its own website."
+      },
+      "price": {
+        "state": "our_estimate",
+        "per_graft_usd": 1.2,
+        "min_usd": 3500,
+        "max_usd": 5000,
+        "note": "The clinic does not publish rates. These figures are our approximation and are not a quote from the clinic."
+      },
+      "verified": true,
+      "verified_on": "2026-07-04",
+      "summary": "Very high-volume clinic led by Dr. Balwi, popular with German-speaking patients."
+    },
+    {
+      "name": "Estepera",
+      "slug": "estepera",
+      "profile_url": "https://comparehairtransplant.com/clinics/estepera",
+      "website": "https://www.estepera.com",
+      "city": "Istanbul",
+      "country": "Turkey",
+      "founded_year": 2017,
+      "entry_type": "clinic",
+      "accreditations": [
+        "TR Health Tourism Authorization"
+      ],
+      "techniques": [
+        "DHI",
+        "FUE",
+        "Sapphire FUE"
+      ],
+      "surgeon": {
+        "state": "named",
+        "name": "Dr. Behruz Uysal",
+        "checked_on": "2026-07-14",
+        "note": "This clinic names the physician on its own website."
+      },
+      "price": {
+        "state": "our_estimate",
+        "per_graft_usd": 1.1,
+        "min_usd": 1800,
+        "max_usd": 6000,
+        "note": "The clinic does not publish rates. These figures are our approximation and are not a quote from the clinic."
+      },
+      "verified": true,
+      "verified_on": "2026-07-04",
+      "summary": "Budget all-inclusive clinic focused on international medical tourists."
+    },
+    {
+      "name": "Estetik International",
+      "slug": "estetik-international",
+      "profile_url": "https://comparehairtransplant.com/clinics/estetik-international",
+      "website": "https://www.estetikinternational.com",
+      "city": "Istanbul",
+      "country": "Turkey",
+      "founded_year": 1999,
+      "entry_type": "clinic",
+      "accreditations": [
+        "ISO 9001",
+        "ISO 10002",
+        "Turquality"
+      ],
+      "techniques": [
+        "DHI",
+        "FUE",
+        "Sapphire FUE"
+      ],
+      "surgeon": {
+        "state": "named",
+        "name": "Dr. Bülent Cihantimur",
+        "checked_on": "2026-07-14",
+        "note": "This clinic names the physician on its own website."
+      },
+      "price": {
+        "state": "our_estimate",
+        "per_graft_usd": 2.6,
+        "min_usd": 3000,
+        "max_usd": 6500,
+        "note": "The clinic does not publish rates. These figures are our approximation and are not a quote from the clinic."
+      },
+      "verified": true,
+      "verified_on": "2026-07-13",
+      "summary": "Aesthetic-surgery group founded in 1999 by Dr. Bülent Cihantimur, with its flagship medical center in Istanbul and a second in Bursa. ISO 9001/10002 and Turquality certified; offers FUE, DHI and Sapphire FUE plus a proprietary PRP-enriched \"organic\" variant. Prices quoted per case (listed figures are approximations)."
+    },
+    {
+      "name": "Hair of Istanbul",
+      "slug": "hair-of-istanbul",
+      "profile_url": "https://comparehairtransplant.com/clinics/hair-of-istanbul",
+      "website": "https://www.hairofistanbul.com",
+      "city": "Istanbul",
+      "country": "Turkey",
+      "founded_year": 2013,
+      "entry_type": "clinic",
+      "accreditations": [],
+      "techniques": [
+        "DHI",
+        "FUE",
+        "Sapphire FUE"
+      ],
+      "surgeon": {
+        "state": "named",
+        "name": "Dr. Mahmut Satekin, Dr. Hayriye Dilber",
+        "checked_on": "2026-07-14",
+        "note": "This clinic names the physician on its own website."
+      },
+      "price": {
+        "state": "our_estimate",
+        "per_graft_usd": 1.1,
+        "min_usd": 3550,
+        "max_usd": 4350,
+        "note": "The clinic does not publish rates. These figures are our approximation and are not a quote from the clinic."
+      },
+      "verified": true,
+      "verified_on": "2026-07-04",
+      "summary": "Istanbul clinic with 19,000+ procedures since 2013, known for dense packing and large sessions."
+    },
+    {
+      "name": "Hairline Clinic",
+      "slug": "hairline-clinic",
+      "profile_url": "https://comparehairtransplant.com/clinics/hairline-clinic",
+      "website": "https://www.fue-hlc.com",
+      "city": "Ankara",
+      "country": "Turkey",
+      "founded_year": 2002,
+      "entry_type": "clinic",
+      "accreditations": [],
+      "techniques": [
+        "FUE"
+      ],
+      "surgeon": {
+        "state": "named",
+        "name": "Dr. Özgür Öztan",
+        "checked_on": "2026-07-14",
+        "note": "This clinic names the physician on its own website."
+      },
+      "price": {
+        "state": "our_estimate",
+        "per_graft_usd": 1.5,
+        "min_usd": 2000,
+        "max_usd": 4000,
+        "note": "The clinic does not publish rates. These figures are our approximation and are not a quote from the clinic."
+      },
+      "verified": true,
+      "verified_on": "2026-07-04",
+      "summary": "Clinic focused on natural-looking hairline design."
+    },
+    {
+      "name": "Hairneva Clinic",
+      "slug": "hairneva",
+      "profile_url": "https://comparehairtransplant.com/clinics/hairneva",
+      "website": "https://www.hairneva.com",
+      "city": "Istanbul",
+      "country": "Turkey",
+      "entry_type": "clinic",
+      "accreditations": [
+        "Turkish Ministry of Health",
+        "TURSAB",
+        "ISAPS"
+      ],
+      "techniques": [
+        "DHI",
+        "FUE"
+      ],
+      "surgeon": {
+        "state": "named",
+        "name": "Assoc. Prof. Dr. Güncel Öztürk",
+        "checked_on": "2026-07-14",
+        "note": "This clinic names the physician on its own website."
+      },
+      "price": {
+        "state": "published",
+        "per_graft_usd": 1.29,
+        "min_usd": 3000,
+        "max_usd": 6000,
+        "note": "The clinic publishes these rates on its own website."
+      },
+      "verified": true,
+      "verified_on": "2026-07-14",
+      "summary": "Istanbul clinic in Beşiktaş led by Assoc. Prof. Dr. Güncel Öztürk, a European Board certified plastic surgeon (FEBOPRAS). FUE and DHI. Publishes an all-inclusive package range of $3,000–$6,000 covering surgery, hotel, transfers, medication and twelve months of follow-up — a stated figure rather than a quote-on-request."
+    },
+    {
+      "name": "Hermest Hair Clinic",
+      "slug": "hermest",
+      "profile_url": "https://comparehairtransplant.com/clinics/hermest",
+      "website": "https://www.hermestclinic.com",
+      "city": "Istanbul",
+      "country": "Turkey",
+      "founded_year": 2012,
+      "entry_type": "clinic",
+      "accreditations": [
+        "TR Ministry of Health"
+      ],
+      "techniques": [
+        "DHI",
+        "FUE",
+        "Sapphire FUE"
+      ],
+      "surgeon": {
+        "state": "named",
+        "name": "Dr. Nesim Tüğen, Dr. Ahmet Murat",
+        "checked_on": "2026-07-14",
+        "note": "This clinic names the physician on its own website."
+      },
+      "price": {
+        "state": "our_estimate",
+        "per_graft_usd": 1.3,
+        "min_usd": 3150,
+        "max_usd": 5950,
+        "note": "The clinic does not publish rates. These figures are our approximation and are not a quote from the clinic."
+      },
+      "verified": true,
+      "verified_on": "2026-07-04",
+      "summary": "Hospital-based clinic with multilingual international patient support."
+    },
+    {
+      "name": "Heva Clinic",
+      "slug": "heva-clinic",
+      "profile_url": "https://comparehairtransplant.com/clinics/heva-clinic",
+      "website": "https://www.dentalhairclinicturkey.com",
+      "city": "Istanbul",
+      "country": "Turkey",
+      "founded_year": 2010,
+      "entry_type": "clinic",
+      "accreditations": [],
+      "techniques": [
+        "DHI",
+        "FUE"
+      ],
+      "surgeon": {
+        "state": "checked_names_nobody",
+        "checked_on": "2026-07-14",
+        "note": "We read this clinic's own website on the date in checked_on and found no physician named. That is what we observed on that date; it is not a claim about who operates."
+      },
+      "price": {
+        "state": "our_estimate",
+        "per_graft_usd": 0.9,
+        "min_usd": 2400,
+        "max_usd": 4000,
+        "note": "The clinic does not publish rates. These figures are our approximation and are not a quote from the clinic."
+      },
+      "verified": true,
+      "verified_on": "2026-07-04",
+      "summary": "All-inclusive packages covering hotel, transfers and aftercare."
+    },
+    {
+      "name": "Istanbul Hair Center",
+      "slug": "istanbul-hair-center",
+      "profile_url": "https://comparehairtransplant.com/clinics/istanbul-hair-center",
+      "website": "https://istanbulhaircenter.com",
+      "city": "Istanbul",
+      "country": "Turkey",
+      "founded_year": 2000,
+      "entry_type": "clinic",
+      "accreditations": [
+        "TR Health Tourism Authorization"
+      ],
+      "techniques": [
+        "DHI",
+        "FUE",
+        "Sapphire FUE"
+      ],
+      "surgeon": {
+        "state": "checked_names_nobody",
+        "checked_on": "2026-07-14",
+        "note": "We read this clinic's own website on the date in checked_on and found no physician named. That is what we observed on that date; it is not a claim about who operates."
+      },
+      "price": {
+        "state": "our_estimate",
+        "per_graft_usd": 1.5,
+        "min_usd": 2000,
+        "max_usd": 4000,
+        "note": "The clinic does not publish rates. These figures are our approximation and are not a quote from the clinic."
+      },
+      "verified": true,
+      "verified_on": "2026-07-04",
+      "summary": "Long-running clinic in central Istanbul serving international patients."
+    },
+    {
+      "name": "Longevita",
+      "slug": "longevita",
+      "profile_url": "https://comparehairtransplant.com/clinics/longevita",
+      "website": "https://www.longevita.co.uk",
+      "city": "Istanbul",
+      "country": "Turkey",
+      "founded_year": 2012,
+      "entry_type": "facilitator",
+      "accreditations": [],
+      "techniques": [
+        "DHI",
+        "FUE",
+        "Sapphire FUE"
+      ],
+      "surgeon": {
+        "state": "agency_does_not_operate",
+        "note": "This entry is a booking agency, not an operating clinic. By its own description it does not perform procedures, so there is no surgeon of its own to name."
+      },
+      "price": {
+        "state": "our_estimate",
+        "per_graft_usd": 1.1,
+        "min_usd": 2400,
+        "max_usd": 5600,
+        "note": "The clinic does not publish rates. These figures are our approximation and are not a quote from the clinic."
+      },
+      "verified": true,
+      "verified_on": "2026-07-04",
+      "summary": "UK-Turkey clinic bridging British patients with Istanbul surgeons."
+    },
+    {
+      "name": "MCAN Health",
+      "slug": "mcan-health",
+      "profile_url": "https://comparehairtransplant.com/clinics/mcan-health",
+      "website": "https://www.mcanhealth.com",
+      "city": "Istanbul",
+      "country": "Turkey",
+      "founded_year": 2016,
+      "entry_type": "facilitator",
+      "accreditations": [
+        "TEMOS",
+        "TR Ministry of Health"
+      ],
+      "techniques": [
+        "DHI",
+        "FUE",
+        "Sapphire FUE"
+      ],
+      "surgeon": {
+        "state": "agency_does_not_operate",
+        "note": "This entry is a booking agency, not an operating clinic. By its own description it does not perform procedures, so there is no surgeon of its own to name."
+      },
+      "price": {
+        "state": "our_estimate",
+        "per_graft_usd": 1,
+        "min_usd": 2500,
+        "max_usd": 4200,
+        "note": "The clinic does not publish rates. These figures are our approximation and are not a quote from the clinic."
+      },
+      "verified": true,
+      "verified_on": "2026-07-04",
+      "summary": "Accredited health-tourism facilitator coordinating Istanbul hair transplants."
+    },
+    {
+      "name": "Memorial Hair Transplant",
+      "slug": "memorial",
+      "profile_url": "https://comparehairtransplant.com/clinics/memorial",
+      "website": "https://www.memorial.com.tr/en/hair-transplant-turkey",
+      "city": "Istanbul",
+      "country": "Turkey",
+      "founded_year": 2000,
+      "entry_type": "clinic",
+      "accreditations": [
+        "JCI"
+      ],
+      "techniques": [
+        "FUE"
+      ],
+      "surgeon": {
+        "state": "named",
+        "name": "MD Mehmet Doğruer",
+        "checked_on": "2026-07-14",
+        "note": "This clinic names the physician on its own website."
+      },
+      "price": {
+        "state": "our_estimate",
+        "per_graft_usd": 2.5,
+        "min_usd": 3000,
+        "max_usd": 6000,
+        "note": "The clinic does not publish rates. These figures are our approximation and are not a quote from the clinic."
+      },
+      "verified": true,
+      "verified_on": "2026-07-13",
+      "summary": "Hair transplant center inside the Memorial Hospitals group — the first hospital in Turkey to earn JCI accreditation (2002). Hospital-grade setting with its AdvFUE technique; prices quoted per case (listed figures are approximations)."
+    },
+    {
+      "name": "Nimclinic",
+      "slug": "nimclinic",
+      "profile_url": "https://comparehairtransplant.com/clinics/nimclinic",
+      "website": "https://www.nimclinic.com",
+      "city": "Istanbul",
+      "country": "Turkey",
+      "founded_year": 2016,
+      "entry_type": "clinic",
+      "accreditations": [],
+      "techniques": [
+        "DHI",
+        "FUE",
+        "Sapphire FUE"
+      ],
+      "surgeon": {
+        "state": "named",
+        "name": "Dr. Arda Akgün, Dr. Emrah Kaya",
+        "checked_on": "2026-07-14",
+        "note": "This clinic names the physician on its own website."
+      },
+      "price": {
+        "state": "our_estimate",
+        "per_graft_usd": 0.7,
+        "min_usd": 2200,
+        "max_usd": 2600,
+        "note": "The clinic does not publish rates. These figures are our approximation and are not a quote from the clinic."
+      },
+      "verified": true,
+      "verified_on": "2026-07-04",
+      "summary": "Budget all-inclusive clinic serving European and Middle Eastern patients."
+    },
+    {
+      "name": "Now Hair Time",
+      "slug": "now-hair-time",
+      "profile_url": "https://comparehairtransplant.com/clinics/now-hair-time",
+      "website": "https://nowhairtime.com",
+      "city": "Istanbul",
+      "country": "Turkey",
+      "founded_year": 2013,
+      "entry_type": "clinic",
+      "accreditations": [
+        "ISO 9001",
+        "ISO 10002"
+      ],
+      "techniques": [
+        "DHI",
+        "FUE",
+        "Sapphire FUE"
+      ],
+      "surgeon": {
+        "state": "named",
+        "name": "Dr. Deniz Dağdelen",
+        "checked_on": "2026-07-14",
+        "note": "This clinic names the physician on its own website."
+      },
+      "price": {
+        "state": "our_estimate",
+        "per_graft_usd": 1.5,
+        "min_usd": 2000,
+        "max_usd": 4000,
+        "note": "The clinic does not publish rates. These figures are our approximation and are not a quote from the clinic."
+      },
+      "verified": true,
+      "verified_on": "2026-07-04",
+      "summary": "Istanbul clinic offering FUE and DHI all-inclusive packages."
+    },
+    {
+      "name": "OTEK Hair Clinic",
+      "slug": "otek-hair-clinic",
+      "profile_url": "https://comparehairtransplant.com/clinics/otek-hair-clinic",
+      "website": "https://otekhairclinic.com",
+      "city": "Antalya",
+      "country": "Turkey",
+      "entry_type": "clinic",
+      "accreditations": [],
+      "techniques": [
+        "DHI",
+        "FUE"
+      ],
+      "surgeon": {
+        "state": "named",
+        "name": "Dr. Ertan Karaçay, Dr. Okan Tanın, Dr. Mani Habibi",
+        "checked_on": "2026-07-14",
+        "note": "This clinic names the physician on its own website."
+      },
+      "price": {
+        "state": "our_estimate",
+        "per_graft_usd": null,
+        "min_usd": null,
+        "max_usd": null,
+        "note": "The clinic does not publish rates. These figures are our approximation and are not a quote from the clinic."
+      },
+      "verified": true,
+      "verified_on": "2026-07-13",
+      "summary": "Antalya clinic run by three named co-founder physicians — Dr. Ertan Karaçay, Dr. Okan Tanın and Dr. Mani Habibi. DHI and FUE including unshaven procedures and women's cases. Free quote by form; prices quoted per case and not published."
+    },
+    {
+      "name": "Sapphire Hair Clinic",
+      "slug": "sapphire-hair-clinic",
+      "profile_url": "https://comparehairtransplant.com/clinics/sapphire-hair-clinic",
+      "website": "https://www.sapphirehairclinic.com",
+      "city": "Istanbul",
+      "country": "Turkey",
+      "founded_year": 2016,
+      "entry_type": "clinic",
+      "accreditations": [],
+      "techniques": [
+        "DHI",
+        "FUE",
+        "Sapphire FUE"
+      ],
+      "surgeon": {
+        "state": "named",
+        "name": "Dr. Büşra Yakupoğlu",
+        "checked_on": "2026-07-14",
+        "note": "This clinic names the physician on its own website."
+      },
+      "price": {
+        "state": "our_estimate",
+        "per_graft_usd": 1.1,
+        "min_usd": 2000,
+        "max_usd": 5500,
+        "note": "The clinic does not publish rates. These figures are our approximation and are not a quote from the clinic."
+      },
+      "verified": true,
+      "verified_on": "2026-07-04",
+      "summary": "Clinic specialising in the Sapphire FUE technique."
+    },
+    {
+      "name": "SE Hair Clinic",
+      "slug": "se-hair-clinic",
+      "profile_url": "https://comparehairtransplant.com/clinics/se-hair-clinic",
+      "website": "https://www.sehairclinic.com",
+      "city": "Antalya",
+      "country": "Turkey",
+      "entry_type": "clinic",
+      "accreditations": [],
+      "techniques": [
+        "DHI",
+        "FUE",
+        "Sapphire FUE"
+      ],
+      "surgeon": {
+        "state": "named",
+        "name": "Dr. Seda Erdoğan",
+        "checked_on": "2026-07-14",
+        "note": "This clinic names the physician on its own website."
+      },
+      "price": {
+        "state": "our_estimate",
+        "per_graft_usd": null,
+        "min_usd": null,
+        "max_usd": null,
+        "note": "The clinic does not publish rates. These figures are our approximation and are not a quote from the clinic."
+      },
+      "verified": true,
+      "verified_on": "2026-07-13",
+      "summary": "Antalya clinic whose surgical team is headed by Dr. Seda Erdoğan, a dermatologist who handles hairline planning, blood work and scalp analysis herself. FUE, Sapphire FUE and DHI, plus beard and eyebrow work. Free quote by form; prices are quoted per case and not published."
+    },
+    {
+      "name": "Smile Hair Clinic",
+      "slug": "smile-hair-clinic",
+      "profile_url": "https://comparehairtransplant.com/clinics/smile-hair-clinic",
+      "website": "https://smilehairclinic.com",
+      "city": "Istanbul",
+      "country": "Turkey",
+      "founded_year": 2019,
+      "entry_type": "clinic",
+      "accreditations": [
+        "Temos International"
+      ],
+      "techniques": [
+        "DHI",
+        "FUE",
+        "Sapphire FUE"
+      ],
+      "surgeon": {
+        "state": "named",
+        "name": "Dr. Mehmet Erdoğan, Dr. Gökay Bilgin",
+        "checked_on": "2026-07-14",
+        "note": "This clinic names the physician on its own website."
+      },
+      "price": {
+        "state": "our_estimate",
+        "per_graft_usd": 0.9,
+        "min_usd": 1500,
+        "max_usd": 4500,
+        "note": "The clinic does not publish rates. These figures are our approximation and are not a quote from the clinic."
+      },
+      "verified": true,
+      "verified_on": "2026-07-04",
+      "summary": "Surgeon-founded clinic with a strong international reputation for natural hairlines."
+    },
+    {
+      "name": "Sule Hair Transplant",
+      "slug": "sule-hair",
+      "profile_url": "https://comparehairtransplant.com/clinics/sule-hair",
+      "website": "https://sule-hairtransplant.com",
+      "city": "Istanbul",
+      "country": "Turkey",
+      "founded_year": 2013,
+      "entry_type": "clinic",
+      "accreditations": [
+        "TR Ministry of Health",
+        "TURSAB",
+        "USHAŞ"
+      ],
+      "techniques": [
+        "DHI",
+        "FUE",
+        "Sapphire FUE"
+      ],
+      "surgeon": {
+        "state": "named",
+        "name": "Dr. Selahattin Tulunay",
+        "checked_on": "2026-07-14",
+        "note": "This clinic names the physician on its own website."
+      },
+      "price": {
+        "state": "our_estimate",
+        "per_graft_usd": 1.2,
+        "min_usd": 3250,
+        "max_usd": 4900,
+        "note": "The clinic does not publish rates. These figures are our approximation and are not a quote from the clinic."
+      },
+      "verified": true,
+      "verified_on": "2026-07-04",
+      "summary": "Clinic with experience in both male and female pattern hair loss."
+    },
+    {
+      "name": "Tecni FUE Hospital",
+      "slug": "tecni-fue",
+      "profile_url": "https://comparehairtransplant.com/clinics/tecni-fue",
+      "website": "https://tecnifueinternational.com",
+      "city": "Istanbul",
+      "country": "Turkey",
+      "founded_year": 2012,
+      "entry_type": "clinic",
+      "accreditations": [],
+      "techniques": [
+        "DHI",
+        "FUE",
+        "Sapphire FUE"
+      ],
+      "surgeon": {
+        "state": "checked_names_nobody",
+        "checked_on": "2026-07-14",
+        "note": "We read this clinic's own website on the date in checked_on and found no physician named. That is what we observed on that date; it is not a claim about who operates."
+      },
+      "price": {
+        "state": "our_estimate",
+        "per_graft_usd": 1.9,
+        "min_usd": 2500,
+        "max_usd": 5000,
+        "note": "The clinic does not publish rates. These figures are our approximation and are not a quote from the clinic."
+      },
+      "verified": true,
+      "verified_on": "2026-07-04",
+      "summary": "Full-hospital setting offering FUE, Sapphire FUE and DHI."
+    },
+    {
+      "name": "Transmed",
+      "slug": "transmed",
+      "profile_url": "https://comparehairtransplant.com/clinics/transmed",
+      "website": "https://www.transmed.com.tr",
+      "city": "Istanbul",
+      "country": "Turkey",
+      "founded_year": 1994,
+      "entry_type": "clinic",
+      "accreditations": [
+        "ISHRS",
+        "ESHRS"
+      ],
+      "techniques": [
+        "DHI",
+        "FUE"
+      ],
+      "surgeon": {
+        "state": "named",
+        "name": "Dr. Melike Külahçı",
+        "checked_on": "2026-07-14",
+        "note": "This clinic names the physician on its own website."
+      },
+      "price": {
+        "state": "our_estimate",
+        "per_graft_usd": 3.3,
+        "min_usd": 6500,
+        "max_usd": 13000,
+        "note": "The clinic does not publish rates. These figures are our approximation and are not a quote from the clinic."
+      },
+      "verified": true,
+      "verified_on": "2026-07-13",
+      "summary": "One of Istanbul's oldest hair transplant clinics, founded in 1994 by Dr. Melike Külahçı — ISHRS member since 1995 and former ISHRS Board Governor. FUE and DHI with surgeon-led planning; prices quoted individually (listed figures are approximations)."
+    },
+    {
+      "name": "TurHair",
+      "slug": "turhair",
+      "profile_url": "https://comparehairtransplant.com/clinics/turhair",
+      "website": "https://www.turhair.com",
+      "city": "Istanbul",
+      "country": "Turkey",
+      "entry_type": "clinic",
+      "accreditations": [
+        "ISHRS"
+      ],
+      "techniques": [],
+      "surgeon": {
+        "state": "named",
+        "name": "Dr. M. Sıraç Demir",
+        "checked_on": "2026-07-14",
+        "note": "This clinic names the physician on its own website."
+      },
+      "price": {
+        "state": "our_estimate",
+        "per_graft_usd": null,
+        "min_usd": null,
+        "max_usd": null,
+        "note": "The clinic does not publish rates. These figures are our approximation and are not a quote from the clinic."
+      },
+      "verified": true,
+      "verified_on": "2026-07-14",
+      "summary": "Istanbul clinic built around Dr. M. Sıraç Demir, whose ISHRS membership we confirmed in the society's own member directory — a Full Member since 2017, not merely a badge on his website. The clinic's stated distinguishing feature is that Dr. Demir opens the recipient channels himself rather than delegating to technicians, which is the single step patients most often discover was handed to someone else. Prices are quoted per case after a photo consultation and are not published."
+    },
+    {
+      "name": "Ulusan Clinic",
+      "slug": "ulusan-clinic",
+      "profile_url": "https://comparehairtransplant.com/clinics/ulusan-clinic",
+      "website": "https://ulusanclinic.com/en",
+      "city": "Izmir",
+      "country": "Turkey",
+      "entry_type": "clinic",
+      "accreditations": [],
+      "techniques": [
+        "DHI",
+        "FUE",
+        "Sapphire FUE"
+      ],
+      "surgeon": {
+        "state": "named",
+        "name": "Dr. Sibel Ulusan, Dr. Zafer Ulusan",
+        "checked_on": "2026-07-14",
+        "note": "This clinic names the physician on its own website."
+      },
+      "price": {
+        "state": "our_estimate",
+        "per_graft_usd": null,
+        "min_usd": null,
+        "max_usd": null,
+        "note": "The clinic does not publish rates. These figures are our approximation and are not a quote from the clinic."
+      },
+      "verified": true,
+      "verified_on": "2026-07-13",
+      "summary": "Izmir clinic in Alsancak run by Dr. Sibel Ulusan and Dr. Zafer Ulusan, both qualified in the 1980s, with roughly 15 years focused specifically on hair restoration and patients from 45 countries. FUE, DHI and Sapphire FUE. Unusually, the clinic's own pricing tool separates doctor-performed from technician-performed FUE — the distinction most Turkish clinics blur. Prices quoted per case and not published."
+    },
+    {
+      "name": "Vera Clinic",
+      "slug": "vera-clinic",
+      "profile_url": "https://comparehairtransplant.com/clinics/vera-clinic",
+      "website": "https://www.veraclinic.net",
+      "city": "Istanbul",
+      "country": "Turkey",
+      "founded_year": 2014,
+      "entry_type": "clinic",
+      "accreditations": [],
+      "techniques": [
+        "DHI",
+        "FUE",
+        "Sapphire FUE"
+      ],
+      "surgeon": {
+        "state": "checked_names_nobody",
+        "checked_on": "2026-07-14",
+        "note": "We read this clinic's own website on the date in checked_on and found no physician named. That is what we observed on that date; it is not a claim about who operates."
+      },
+      "price": {
+        "state": "our_estimate",
+        "per_graft_usd": 1.3,
+        "min_usd": 2700,
+        "max_usd": 6300,
+        "note": "The clinic does not publish rates. These figures are our approximation and are not a quote from the clinic."
+      },
+      "verified": true,
+      "verified_on": "2026-07-04",
+      "summary": "High-volume international clinic offering Sapphire FUE and DHI in all-inclusive packages."
+    },
+    {
+      "name": "Dr. Yetkin Bayer Clinics",
+      "slug": "yetkin-bayer",
+      "profile_url": "https://comparehairtransplant.com/clinics/yetkin-bayer",
+      "website": "https://www.yetkinbayer.com",
+      "city": "Istanbul",
+      "country": "Turkey",
+      "founded_year": 2009,
+      "entry_type": "clinic",
+      "accreditations": [
+        "JCI",
+        "ISO"
+      ],
+      "techniques": [
+        "DHI",
+        "FUE",
+        "Sapphire FUE"
+      ],
+      "surgeon": {
+        "state": "named",
+        "name": "Dr. Yetkin Bayer",
+        "checked_on": "2026-07-14",
+        "note": "This clinic names the physician on its own website."
+      },
+      "price": {
+        "state": "our_estimate",
+        "per_graft_usd": 2.2,
+        "min_usd": 2000,
+        "max_usd": 6000,
+        "note": "The clinic does not publish rates. These figures are our approximation and are not a quote from the clinic."
+      },
+      "verified": true,
+      "verified_on": "2026-07-04",
+      "summary": "Established multi-branch clinic with international patient coordinators."
+    }
+  ]
+}

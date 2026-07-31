@@ -1,0 +1,120 @@
+{
+  "dataset": "Hair transplant clinics we checked and did not list",
+  "description": "The other half of a directory: who was left out, on what date, and what we actually observed. Published because a list of inclusions with no record of exclusions cannot be audited.",
+  "source": "https://comparehairtransplant.com/data",
+  "method": "https://comparehairtransplant.com/how-we-rank",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "Compare Hair Transplant — https://comparehairtransplant.com",
+  "how_to_read": [
+    "Every `reason` is a dated observation of a public page, not a verdict about a business. Read it as \"this is what we saw on this date\", because that is all it is.",
+    "Two of the four reason codes carry no criticism at all: `duplicate_domain` and `unverifiable` are bookkeeping about our own data, not findings about the clinic.",
+    "These records have a shelf life. A clinic that named no physician in July may name one next year. checked_on is inside every record for exactly that reason — a record read without its date is being read wrongly.",
+    "We re-check every domain in this file quarterly and publish the result whichever way it goes.",
+    "Nothing here is an assessment of clinical quality or safety, and nothing here is medical advice."
+  ],
+  "reason_codes": [
+    {
+      "code": "no_named_surgeon",
+      "means": "the site named no physician when we read it, on the date in checked_on",
+      "carries": "a substantive finding against our own published bar"
+    },
+    {
+      "code": "not_a_clinic",
+      "means": "an agency or intermediary rather than an operating clinic",
+      "carries": "a substantive finding — it says what the business is, not how good it is"
+    },
+    {
+      "code": "unverifiable",
+      "means": "no primary source existed for the claims a listing would need",
+      "carries": "bookkeeping about our data, not a finding about the business"
+    },
+    {
+      "code": "duplicate_domain",
+      "means": "a second domain for a practice already in the directory",
+      "carries": "bookkeeping only — it says nothing about the practice"
+    }
+  ],
+  "counts": {
+    "total": 8,
+    "by_reason_code": {
+      "duplicate_domain": 1,
+      "no_named_surgeon": 3,
+      "not_a_clinic": 1,
+      "unverifiable": 3
+    }
+  },
+  "corrections": "Facts changed, or we got something wrong? Tell us at https://comparehairtransplant.com/contact and we will re-check and re-publish. Named a surgeon since we looked? That is exactly the case we want to hear about.",
+  "rejected": [
+    {
+      "name": "Mono Hair Transplant",
+      "city": "Izmir",
+      "checked_on": "2026-07-04",
+      "reason_code": "not_a_clinic",
+      "reason": "Carried in our own initial seed data as an Istanbul clinic. When checked on 2026-07-04, \"Clinic Mono\" was an Izmir medical-travel agency rather than an Istanbul clinic. Removed because listing an agency as a clinic would misrepresent it.",
+      "recorded_in": "000009_remove_unsourced_clinics"
+    },
+    {
+      "name": "Reviva Clinic",
+      "checked_on": "2026-07-04",
+      "reason_code": "unverifiable",
+      "reason": "Carried in our own initial seed data as an Istanbul clinic. When checked on 2026-07-04, no primary source for an Istanbul clinic of this name could be found; revivaclinic.com is a clinic in Chandigarh, India. Removed as unsourced.",
+      "recorded_in": "000009_remove_unsourced_clinics"
+    },
+    {
+      "name": "Vintage Hair Clinic",
+      "checked_on": "2026-07-04",
+      "reason_code": "unverifiable",
+      "reason": "Carried in our own initial seed data as an Istanbul clinic. When checked on 2026-07-04, no primary source for a clinic of this name could be found. Removed as unsourced.",
+      "recorded_in": "000009_remove_unsourced_clinics"
+    },
+    {
+      "name": "Este Center",
+      "city": "Istanbul",
+      "checked_on": "2026-07-13",
+      "reason_code": "unverifiable",
+      "reason": "A real Istanbul clinic. Across two research passes (sprints 004 and 006, the second on 2026-07-13) we found no published prices, no stated accreditation and no named hair transplant surgeon — nothing a comparison entry could be built from. Removed for want of comparable data, not for anything found on the site.",
+      "recorded_in": "000012_remove_este_center"
+    },
+    {
+      "name": "GETFUE",
+      "domain": "getfue.com",
+      "city": "Antalya",
+      "checked_on": "2026-07-13",
+      "reason_code": "no_named_surgeon",
+      "reason": "The site described the clinic as \"headed by an experienced surgeon\" and named no physician anywhere on its own pages when checked on 2026-07-13. A surgeon's name appeared in third-party listings only, which we do not treat as the clinic's own statement.",
+      "evidence_url": "https://getfue.com/",
+      "recorded_in": "000013_city_expansion"
+    },
+    {
+      "name": "PROFUE",
+      "domain": "profue.com",
+      "city": "Antalya",
+      "checked_on": "2026-07-13",
+      "reason_code": "no_named_surgeon",
+      "reason": "The site referred to \"our surgeon and his team\" and named no physician anywhere on its own pages when checked on 2026-07-13.",
+      "evidence_url": "https://profue.com/",
+      "recorded_in": "000013_city_expansion"
+    },
+    {
+      "name": "medicalhair.org",
+      "domain": "medicalhair.org",
+      "city": "Izmir",
+      "checked_on": "2026-07-13",
+      "reason_code": "duplicate_domain",
+      "reason": "A second domain for the same Izmir practice as ulusanclinic.com (Dr. Sibel Ulusan), which is already in the directory as Ulusan Clinic. Excluded so that one practice is not counted twice. Re-confirmed on 2026-07-14. This is a bookkeeping exclusion and says nothing about the practice.",
+      "evidence_url": "https://medicalhair.org/",
+      "recorded_in": "000013_city_expansion"
+    },
+    {
+      "name": "Eges Hair Clinic",
+      "domain": "egeshairclinic.com",
+      "city": "Izmir",
+      "checked_on": "2026-07-14",
+      "reason_code": "no_named_surgeon",
+      "reason": "The site named a \"Saç Ekim Koordinatörü\" (hair transplant coordinator) and no physician anywhere on its own pages when checked on 2026-07-14. No accreditation was stated on the site.",
+      "evidence_url": "https://egeshairclinic.com/",
+      "recorded_in": "000018_izmir_third_clinic"
+    }
+  ]
+}
