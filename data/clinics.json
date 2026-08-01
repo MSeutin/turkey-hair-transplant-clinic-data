@@ -783,14 +783,14 @@
       },
       "price": {
         "state": "our_estimate",
-        "per_graft_usd": 1.1,
+        "per_graft_usd": null,
         "min_usd": 2400,
         "max_usd": 5600,
         "note": "The clinic does not publish rates. These figures are our approximation and are not a quote from the clinic."
       },
       "verified": true,
       "verified_on": "2026-07-04",
-      "summary": "UK-Turkey clinic bridging British patients with Istanbul surgeons."
+      "summary": "UK-registered medical tourism facilitator. Longevita arranges hair transplants through independent clinicians and hospitals in Istanbul; it does not perform procedures or operate clinical facilities."
     },
     {
       "name": "MCAN Health",
@@ -816,7 +816,7 @@
       },
       "price": {
         "state": "our_estimate",
-        "per_graft_usd": 1,
+        "per_graft_usd": null,
         "min_usd": 2500,
         "max_usd": 4200,
         "note": "The clinic does not publish rates. These figures are our approximation and are not a quote from the clinic."
