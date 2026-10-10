@@ -53,7 +53,9 @@ accusation, in a file licensed for anyone to republish.
   - `our_estimate` — the clinic does not publish rates. The figures are our approximation
     from comparable clinics. **Not a quote, and not the clinic's price.**
 - **`per_graft_usd`**, **`min_usd`**, **`max_usd`** — USD. `null` where we hold no figure;
-  never `0`, because a zero would be read as a price.
+  never `0`, because a zero would be read as a price. A clinic that publishes package prices
+  only has `per_graft_usd: null` with `min_usd`/`max_usd` set: we never divide a package
+  price into a per-graft rate.
 - **`note`** — the same distinction in a sentence.
 
 ### Other fields
@@ -62,7 +64,7 @@ accusation, in a file licensed for anyone to republish.
   where one is reachable. `[]` where none are claimed or none survived checking.
 - **`techniques`** — array (FUE, DHI, Sapphire FUE, FUT…).
 - **`verified`** — whether the record has been checked against primary sources.
-- **`verified_on`** — `YYYY-MM-DD`. Absent where never verified.
+- **`verified_on`** — `YYYY-MM-DD`, UTC. Absent where never verified.
 - **`summary`** — our own editorial description of the clinic. Covered by the licence like
   everything else here.
 

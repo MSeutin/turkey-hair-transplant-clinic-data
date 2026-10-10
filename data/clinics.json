@@ -49,14 +49,14 @@
       },
       "price": {
         "state": "published",
-        "per_graft_usd": 1.3,
-        "min_usd": 3600,
-        "max_usd": 5700,
+        "per_graft_usd": null,
+        "min_usd": 3698,
+        "max_usd": 5827,
         "note": "The clinic publishes these rates on its own website."
       },
       "verified": true,
-      "verified_on": "2026-07-04",
-      "summary": "All-inclusive budget clinic for international patients."
+      "verified_on": "2026-10-09",
+      "summary": "Antalya clinic led by Dr. Hakan Doğanay. Publishes team packages priced by graft ceiling, from €3,300 for up to 2,500 grafts to €5,200 for up to 4,500 grafts, under Dr. Doğanay's supervision. It also publishes €3 per graft for an operation Dr. Doğanay performs himself. Both options include medicines, accommodation and airport pickup."
     },
     {
       "name": "Asmed Surgical Medical Center",
@@ -81,14 +81,14 @@
       },
       "price": {
         "state": "published",
-        "per_graft_usd": 2.7,
-        "min_usd": 4400,
-        "max_usd": 14700,
+        "per_graft_usd": 3.92,
+        "min_usd": null,
+        "max_usd": null,
         "note": "The clinic publishes these rates on its own website."
       },
       "verified": true,
-      "verified_on": "2026-07-13",
-      "summary": "Founded in 2001 by Dr. Koray Erdogan, Asmed is a manual-FUE-only surgical center known for high graft counts, KE-BOT computerized planning and openly published tiered pricing: €2/graft with the medical team, €3/graft with Dr. Erdogan."
+      "verified_on": "2026-10-09",
+      "summary": "Founded in 2001 by Dr. Koray Erdoğan, Asmed is a manual-FUE-only surgical center in Ataşehir, Istanbul. Publishes a single fee of €3.50 per transplanted graft, which it says is the same for every country, the Turkish market included. The total depends on the graft count set at assessment."
     },
     {
       "name": "Dr. Atalay Kabakçıoğlu Hair Transplant",
@@ -118,7 +118,7 @@
         "note": "The clinic does not publish rates. These figures are our approximation and are not a quote from the clinic."
       },
       "verified": true,
-      "verified_on": "2026-07-13",
+      "verified_on": "2026-07-14",
       "summary": "Izmir hair transplant centre led by Dr. Atalay Kabakçıoğlu, performing transplants since 2010. DHI and FUE, plus beard, eyebrow and moustache work. The clinic is explicit that transplants belong in a sterile surgical setting under a physician legally authorised to perform them. Prices quoted per case and not published."
     },
     {
@@ -188,7 +188,7 @@
         "note": "The clinic publishes these rates on its own website."
       },
       "verified": true,
-      "verified_on": "2026-07-13",
+      "verified_on": "2026-07-14",
       "summary": "Ankara dermatology and hair restoration clinic open since 1999, run by Dr. Ekrem Civas — the first surgeon in Turkey certified by the ABHRS (2011) and the first to become an ISHRS Fellow (2015) — with Dr. Ümit Akpınar. One procedure per day, and openly published pricing: from €1.75 per graft for men, €2.50 for women and unshaven FUE, against a €4,500 baseline. FUE, FUT, DHI and Sapphire, plus scarring-alopecia and repair work."
     },
     {
@@ -326,7 +326,7 @@
         "note": "The clinic publishes these rates on its own website."
       },
       "verified": true,
-      "verified_on": "2026-07-13",
+      "verified_on": "2026-07-14",
       "summary": "Antalya clinic operating on the Lara coast since 2002, led by Dr. Meltem Şentürk and Prof. Ümit Kemal Şentürk. States it was the first clinic in Antalya accredited by the Turkish Ministry of Health and is an ISHRS member. DHI and FUE, physician-led, capped at two patients per day. One of the few Turkish clinics to publish a flat package price: £2,200 all-in (~$2,800)."
     },
     {
@@ -352,14 +352,14 @@
       },
       "price": {
         "state": "published",
-        "per_graft_usd": 0.88,
-        "min_usd": 2515,
-        "max_usd": 5885,
+        "per_graft_usd": null,
+        "min_usd": 2633,
+        "max_usd": 6712,
         "note": "The clinic publishes these rates on its own website."
       },
       "verified": true,
-      "verified_on": "2026-07-14",
-      "summary": "Istanbul clinic opened in 2019 by Dr. Emrah Cinik, and one of the few in Turkey to publish a full price list rather than quoting per case: FUE €2,350, Sapphire FUE €2,890, DHI €3,590, and €5,500 for a procedure performed by Dr. Cinik personally. All-inclusive packages priced by technique rather than by graft count. The clinic states no medical accreditation on its own site — the badges it displays are patient-review platforms, not accrediting bodies."
+      "verified_on": "2026-10-09",
+      "summary": "Dr. Emrah Cinik's Istanbul clinic, established in 2019. Publishes all-inclusive packages priced by technique rather than by graft count: FUE €2,350, DHI €3,090 (shown as an offer, down from €3,590), Sapphire FUE in a \"Premium Doctor Package\" at €3,590, manual FUE €3,990, and the Dr. Cinik Signature Package at €5,990. It publishes no per-graft rate. For the Signature Package, the clinic's price page says Dr. Cinik plans the treatment, designs the hairline and opens the channels, and that the procedure is performed by the clinic's most senior surgical team."
     },
     {
       "name": "Dr. Serkan Aygin Clinic",
@@ -427,7 +427,7 @@
         "note": "The clinic publishes these rates on its own website."
       },
       "verified": true,
-      "verified_on": "2026-10-08",
+      "verified_on": "2026-10-09",
       "summary": "Istanbul clinic in Beşiktaş founded by Dr. Servet Terziler, who the site credits with 35+ years of practice. FUE, DHI and a robotic DHI variant. Publishes a 2026 package range of €3,200–€10,000; the clinic says the final amount depends on technique, graft count and package inclusions. Accredited by the American Accreditation Commission International (AACI) since August 2022; the current certificate, C150-2022-ACC-TR-IEEA, was issued on 22 December 2025 and is valid until 21 December 2028. The clinic states that Dr. Kürşat Yalvaç may lead the medical plan on some cases, so confirm in writing who is assigned to yours."
     },
     {
@@ -461,7 +461,7 @@
         "note": "The clinic does not publish rates. These figures are our approximation and are not a quote from the clinic."
       },
       "verified": true,
-      "verified_on": "2026-07-13",
+      "verified_on": "2026-07-14",
       "summary": "Ankara clinic founded in 1998 by Dr. Tayfun Oğuzoğlu, one of the longest-running hair transplant practices in Turkey and an early adopter of long-hair FUE. Sapphire FUE, DHI, long-hair FUE and body hair transplantation, with satellite consultations in Cyprus, Germany and Austria. Prices quoted per case and not published."
     },
     {
@@ -496,7 +496,7 @@
         "note": "The clinic does not publish rates. These figures are our approximation and are not a quote from the clinic."
       },
       "verified": true,
-      "verified_on": "2026-07-04",
+      "verified_on": "2026-07-05",
       "summary": "Very high-volume clinic led by Dr. Balwi, popular with German-speaking patients."
     },
     {
@@ -598,7 +598,7 @@
         "note": "The clinic does not publish rates. These figures are our approximation and are not a quote from the clinic."
       },
       "verified": true,
-      "verified_on": "2026-07-04",
+      "verified_on": "2026-07-05",
       "summary": "Istanbul clinic with 19,000+ procedures since 2013, known for dense packing and large sessions."
     },
     {
@@ -656,14 +656,14 @@
       },
       "price": {
         "state": "published",
-        "per_graft_usd": 1.29,
+        "per_graft_usd": null,
         "min_usd": 3000,
         "max_usd": 6000,
         "note": "The clinic publishes these rates on its own website."
       },
       "verified": true,
-      "verified_on": "2026-07-14",
-      "summary": "Istanbul clinic in Beşiktaş led by Assoc. Prof. Dr. Güncel Öztürk, a European Board certified plastic surgeon (FEBOPRAS). FUE and DHI. Publishes an all-inclusive package range of $3,000–$6,000 covering surgery, hotel, transfers, medication and twelve months of follow-up — a stated figure rather than a quote-on-request."
+      "verified_on": "2026-10-09",
+      "summary": "Istanbul clinic in Beşiktaş led by Assoc. Prof. Dr. Güncel Öztürk, a European Board certified plastic surgeon (FEBOPRAS). FUE and DHI. Publishes a typical package range of $3,000–$6,000, which it says covers surgery, a two-night hotel stay, transfers, medication and twelve months of online follow-up. It prices packages, not grafts, and publishes no per-graft rate."
     },
     {
       "name": "Hermest Hair Clinic",
@@ -789,7 +789,7 @@
         "note": "The clinic does not publish rates. These figures are our approximation and are not a quote from the clinic."
       },
       "verified": true,
-      "verified_on": "2026-07-04",
+      "verified_on": "2026-07-05",
       "summary": "UK-registered medical tourism facilitator. Longevita arranges hair transplants through independent clinicians and hospitals in Istanbul; it does not perform procedures or operate clinical facilities."
     },
     {
@@ -822,7 +822,7 @@
         "note": "The clinic does not publish rates. These figures are our approximation and are not a quote from the clinic."
       },
       "verified": true,
-      "verified_on": "2026-07-04",
+      "verified_on": "2026-07-05",
       "summary": "Accredited health-tourism facilitator coordinating Istanbul hair transplants."
     },
     {
@@ -951,7 +951,7 @@
         "note": "The clinic does not publish rates. These figures are our approximation and are not a quote from the clinic."
       },
       "verified": true,
-      "verified_on": "2026-07-13",
+      "verified_on": "2026-07-14",
       "summary": "Antalya clinic run by three named co-founder physicians — Dr. Ertan Karaçay, Dr. Okan Tanın and Dr. Mani Habibi. DHI and FUE including unshaven procedures and women's cases. Free quote by form; prices quoted per case and not published."
     },
     {
@@ -1014,7 +1014,7 @@
         "note": "The clinic does not publish rates. These figures are our approximation and are not a quote from the clinic."
       },
       "verified": true,
-      "verified_on": "2026-07-13",
+      "verified_on": "2026-07-14",
       "summary": "Antalya clinic whose surgical team is headed by Dr. Seda Erdoğan, a dermatologist who handles hairline planning, blood work and scalp analysis herself. FUE, Sapphire FUE and DHI, plus beard and eyebrow work. Free quote by form; prices are quoted per case and not published."
     },
     {
@@ -1115,7 +1115,7 @@
         "note": "The clinic does not publish rates. These figures are our approximation and are not a quote from the clinic."
       },
       "verified": true,
-      "verified_on": "2026-07-04",
+      "verified_on": "2026-07-05",
       "summary": "Full-hospital setting offering FUE, Sapphire FUE and DHI."
     },
     {
@@ -1209,7 +1209,7 @@
         "note": "The clinic does not publish rates. These figures are our approximation and are not a quote from the clinic."
       },
       "verified": true,
-      "verified_on": "2026-07-13",
+      "verified_on": "2026-07-14",
       "summary": "Izmir clinic in Alsancak run by Dr. Sibel Ulusan and Dr. Zafer Ulusan, both qualified in the 1980s, with roughly 15 years focused specifically on hair restoration and patients from 45 countries. FUE, DHI and Sapphire FUE. Unusually, the clinic's own pricing tool separates doctor-performed from technician-performed FUE — the distinction most Turkish clinics blur. Prices quoted per case and not published."
     },
     {
@@ -1275,7 +1275,7 @@
         "note": "The clinic does not publish rates. These figures are our approximation and are not a quote from the clinic."
       },
       "verified": true,
-      "verified_on": "2026-07-04",
+      "verified_on": "2026-07-05",
       "summary": "Established multi-branch clinic with international patient coordinators."
     }
   ]
